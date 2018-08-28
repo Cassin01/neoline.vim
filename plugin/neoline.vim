@@ -11,7 +11,10 @@ endif
 let s:save_cpo = &cpo
 set cpo&vim
 
-nmap z :call neoline#neoline_init()<cr>
+augroup entercmd
+  autocmd!
+  autocmd VimEnter * call neoline#neoline_init()
+augroup END
 
 " 対比していたユーザ設定を戻す
 let &cpo = s:save_cpo
