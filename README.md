@@ -11,3 +11,4 @@ An awesome Status Line Plugin for minimarist
 2. and add ``set statusline=2`` to your ~/.vimrc
 ## Note
 ### Do not use any plugins that retate with Status Line, when you use this plugin.
+Cause conflicts
