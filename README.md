@@ -1,5 +1,5 @@
 # neoline.vim
-An awesome Plugin for my init.vim
+An awesome Status Line Plugin for your init.vim
 
 ## Getting Stated
 ### instllation
