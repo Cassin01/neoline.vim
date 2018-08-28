@@ -2,7 +2,7 @@
 An awesome Status Line Plugin for minimarist
 
 # Feature
-1. Compatible with every color schemes
+1. Compatible with every kind of color schemes
 2. Simple
 
 ## Getting Stated
