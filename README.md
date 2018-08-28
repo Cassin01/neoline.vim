@@ -1,5 +1,9 @@
 # neoline.vim
-An awesome Status Line Plugin for your init.vim
+An awesome Status Line Plugin for minimarist
+
+# Feature
+1. Compatible with every color schemes
+2. Simple
 
 ## Getting Stated
 ### Instllation
