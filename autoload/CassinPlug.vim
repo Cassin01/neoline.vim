@@ -1,15 +1,15 @@
 scriptencoding utf-8
 
-if !exists('g:loaded_cassinplug')
+if !exists('g:loaded_neoline')
   finish
 else
-  let g:loaded_cassinplug = 1
+  let g:loaded_neoline = 1
 endif
 
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! CassinPlug_init()
+function! neoline#neoline_init()
   echo "Hello World"
 endfunction
 
