@@ -11,7 +11,7 @@ endif
 let s:save_cpo = &cpo
 set cpo&vim
 
-nmap z:call CassinPlug#Cassin_init()<CR>
+nmap z :call CassinPlug#Cassin_init()<CR>
 
 " 対比していたユーザ設定を戻す
 let &cpo = s:save_cpo
