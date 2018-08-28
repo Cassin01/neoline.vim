@@ -1,17 +1,17 @@
 scriptencoding utf-8
 
 " 二度読み込むことを防ぐ
-if exists('g:loaded_CassinPlug.vim')
+if exists('g:loaded_neoline')
   finish
 else
-  let g:loaded_CassinPlug = 1
+  let g:loaded_neoline = 1
 endif
 
 " ユーザ設定を一時対比
 let s:save_cpo = &cpo
 set cpo&vim
 
-nmap z :call CassinPlug#CassinPlug_init()<CR>
+nmap z :call neoline#neoline_init()<CR>
 
 " 対比していたユーザ設定を戻す
 let &cpo = s:save_cpo
