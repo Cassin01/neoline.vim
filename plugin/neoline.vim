@@ -7,7 +7,7 @@ else
   let g:loaded_neoline = 1
 endif
 
-" ユーザ設定を一時対比
+" ユーザ設定を一時退避
 let s:save_cpo = &cpo
 set cpo&vim
 
