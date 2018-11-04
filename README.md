@@ -1,5 +1,5 @@
 # neoline.vim
-An awesome Status Line Plugin for minimarist
+An awesome Status Line Plugin for minimalist
 
 # Feature
 1. Compatible with every kind of color schemes
