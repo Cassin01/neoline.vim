@@ -7,5 +7,5 @@ An awesome Status Line Plugin for minimarist
 
 ## Getting Stated
 ### Instllation
-1. I recommend installing vim-plug and then just add ``Plug 'Cassin01/CassinPlug'`` to your ~/.vimrc
+1. I recommend installing vim-plug and then just add ``Plug 'Cassin01/neoline.vim'`` to your ~/.vimrc
 2. and add ``set statusline=2`` to your ~/.vimrc
