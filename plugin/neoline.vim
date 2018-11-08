@@ -16,6 +16,6 @@ augroup entercmd
   autocmd VimEnter * call neoline#neoline_init()
 augroup END
 
-" 対比していたユーザ設定を戻す
+" 退避していたユーザ設定を戻す
 let &cpo = s:save_cpo
 unlet s:save_cpo
